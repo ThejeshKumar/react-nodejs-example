@@ -13,6 +13,7 @@ pipeline {
            script {
              echo "Building Jar File"
              sh 'npm install'
+             sh 'npm run build'
             }
         }
     }  
