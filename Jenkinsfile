@@ -3,7 +3,7 @@ pipeline {
   agent any
     
   tools {
-    nodejs "Node"
+    nodejs "NodeJS"
   }
     
   stages {
@@ -12,7 +12,7 @@ pipeline {
         steps {
            script {
              echo "Building Jar File"
-             sh 'npm install -g'
+             sh 'npm install'
             }
         }
     }  
