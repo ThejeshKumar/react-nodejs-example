@@ -12,7 +12,7 @@ pipeline {
         steps {
            script {
              echo "Building Jar File"
-             sh 'npm package'
+             sh 'npm install -g'
             }
         }
     }  
